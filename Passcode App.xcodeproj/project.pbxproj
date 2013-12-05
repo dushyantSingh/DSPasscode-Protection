@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4497A87D185092F3000E069D /* DSPasscodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497A875185092F3000E069D /* DSPasscodeManager.m */; };
+		4497A87E185092F3000E069D /* DSPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497A877185092F3000E069D /* DSPasscodeViewController.m */; };
+		4497A87F185092F3000E069D /* DSPasscodeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4497A878185092F3000E069D /* DSPasscodeViewController_iPad.xib */; };
+		4497A880185092F3000E069D /* DSPasscodeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4497A879185092F3000E069D /* DSPasscodeViewController_iPhone.xib */; };
+		4497A881185092F3000E069D /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4497A87A185092F3000E069D /* keyboard.png */; };
+		4497A882185092F3000E069D /* keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4497A87B185092F3000E069D /* keyboard@2x.png */; };
+		4497A883185092F3000E069D /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4497A87C185092F3000E069D /* readme.rtf */; };
+		86966D19174219F8002FB763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86966D18174219F8002FB763 /* UIKit.framework */; };
+		86966D1B174219F8002FB763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86966D1A174219F8002FB763 /* Foundation.framework */; };
+		86966D1D174219F9002FB763 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86966D1C174219F8002FB763 /* CoreGraphics.framework */; };
+		86966D23174219F9002FB763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86966D21174219F9002FB763 /* InfoPlist.strings */; };
+		86966D25174219F9002FB763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86966D24174219F9002FB763 /* main.m */; };
+		86966D29174219F9002FB763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86966D28174219F9002FB763 /* AppDelegate.m */; };
+		86966D2B174219F9002FB763 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 86966D2A174219F9002FB763 /* Default.png */; };
+		86966D2D174219F9002FB763 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86966D2C174219F9002FB763 /* Default@2x.png */; };
+		86966D2F174219F9002FB763 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86966D2E174219F9002FB763 /* Default-568h@2x.png */; };
+		86966D32174219F9002FB763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86966D31174219F9002FB763 /* ViewController.m */; };
+		86966D35174219F9002FB763 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86966D33174219F9002FB763 /* ViewController_iPhone.xib */; };
+		86966D38174219F9002FB763 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86966D36174219F9002FB763 /* ViewController_iPad.xib */; };
+		86A356651743464F00070E80 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A356631743464F00070E80 /* SettingViewController.m */; };
+		86A356661743464F00070E80 /* SettingViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A356641743464F00070E80 /* SettingViewController_iPhone.xib */; };
+		86A3566E174352D400070E80 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A3566C174352D400070E80 /* keyboard.png */; };
+		86A3566F174352D400070E80 /* keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A3566D174352D400070E80 /* keyboard@2x.png */; };
+		86A3567117435E0100070E80 /* SettingViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A3567017435E0000070E80 /* SettingViewController_iPad.xib */; };
+		86A35674174364A500070E80 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A35672174364A500070E80 /* background.png */; };
+		86A35675174364A500070E80 /* background_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A35673174364A500070E80 /* background_ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4497A874185092F3000E069D /* DSPasscodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPasscodeManager.h; sourceTree = "<group>"; };
+		4497A875185092F3000E069D /* DSPasscodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPasscodeManager.m; sourceTree = "<group>"; };
+		4497A876185092F3000E069D /* DSPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPasscodeViewController.h; sourceTree = "<group>"; };
+		4497A877185092F3000E069D /* DSPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPasscodeViewController.m; sourceTree = "<group>"; };
+		4497A878185092F3000E069D /* DSPasscodeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSPasscodeViewController_iPad.xib; sourceTree = "<group>"; };
+		4497A879185092F3000E069D /* DSPasscodeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSPasscodeViewController_iPhone.xib; sourceTree = "<group>"; };
+		4497A87A185092F3000E069D /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		4497A87B185092F3000E069D /* keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard@2x.png"; sourceTree = "<group>"; };
+		4497A87C185092F3000E069D /* readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
+		86966D14174219F8002FB763 /* Passcode App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passcode App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86966D18174219F8002FB763 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86966D1A174219F8002FB763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86966D1C174219F8002FB763 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86966D20174219F9002FB763 /* Passcode App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passcode App-Info.plist"; sourceTree = "<group>"; };
+		86966D22174219F9002FB763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86966D24174219F9002FB763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86966D26174219F9002FB763 /* Passcode App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passcode App-Prefix.pch"; sourceTree = "<group>"; };
+		86966D27174219F9002FB763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86966D28174219F9002FB763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86966D2A174219F9002FB763 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		86966D2C174219F9002FB763 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		86966D2E174219F9002FB763 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		86966D30174219F9002FB763 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86966D31174219F9002FB763 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86966D34174219F9002FB763 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		86966D37174219F9002FB763 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		86A356621743464F00070E80 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		86A356631743464F00070E80 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		86A356641743464F00070E80 /* SettingViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController_iPhone.xib; sourceTree = "<group>"; };
+		86A3566C174352D400070E80 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		86A3566D174352D400070E80 /* keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard@2x.png"; sourceTree = "<group>"; };
+		86A3567017435E0000070E80 /* SettingViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController_iPad.xib; sourceTree = "<group>"; };
+		86A35672174364A500070E80 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		86A35673174364A500070E80 /* background_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_ipad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86966D11174219F8002FB763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86966D19174219F8002FB763 /* UIKit.framework in Frameworks */,
+				86966D1B174219F8002FB763 /* Foundation.framework in Frameworks */,
+				86966D1D174219F9002FB763 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4497A873185092F3000E069D /* DSPasscode  */ = {
+			isa = PBXGroup;
+			children = (
+				4497A874185092F3000E069D /* DSPasscodeManager.h */,
+				4497A875185092F3000E069D /* DSPasscodeManager.m */,
+				4497A876185092F3000E069D /* DSPasscodeViewController.h */,
+				4497A877185092F3000E069D /* DSPasscodeViewController.m */,
+				4497A878185092F3000E069D /* DSPasscodeViewController_iPad.xib */,
+				4497A879185092F3000E069D /* DSPasscodeViewController_iPhone.xib */,
+				4497A87A185092F3000E069D /* keyboard.png */,
+				4497A87B185092F3000E069D /* keyboard@2x.png */,
+				4497A87C185092F3000E069D /* readme.rtf */,
+			);
+			path = "DSPasscode ";
+			sourceTree = "<group>";
+		};
+		86966D09174219F8002FB763 = {
+			isa = PBXGroup;
+			children = (
+				4497A873185092F3000E069D /* DSPasscode  */,
+				86966D1E174219F9002FB763 /* Passcode App */,
+				86966D17174219F8002FB763 /* Frameworks */,
+				86966D15174219F8002FB763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86966D15174219F8002FB763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86966D14174219F8002FB763 /* Passcode App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86966D17174219F8002FB763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86966D18174219F8002FB763 /* UIKit.framework */,
+				86966D1A174219F8002FB763 /* Foundation.framework */,
+				86966D1C174219F8002FB763 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86966D1E174219F9002FB763 /* Passcode App */ = {
+			isa = PBXGroup;
+			children = (
+				86966D27174219F9002FB763 /* AppDelegate.h */,
+				86966D28174219F9002FB763 /* AppDelegate.m */,
+				86966D30174219F9002FB763 /* ViewController.h */,
+				86966D31174219F9002FB763 /* ViewController.m */,
+				86966D33174219F9002FB763 /* ViewController_iPhone.xib */,
+				86966D36174219F9002FB763 /* ViewController_iPad.xib */,
+				86A356621743464F00070E80 /* SettingViewController.h */,
+				86A356631743464F00070E80 /* SettingViewController.m */,
+				86A356641743464F00070E80 /* SettingViewController_iPhone.xib */,
+				86A3567017435E0000070E80 /* SettingViewController_iPad.xib */,
+				86966D1F174219F9002FB763 /* Supporting Files */,
+			);
+			path = "Passcode App";
+			sourceTree = "<group>";
+		};
+		86966D1F174219F9002FB763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A35672174364A500070E80 /* background.png */,
+				86A35673174364A500070E80 /* background_ipad.png */,
+				86A3566C174352D400070E80 /* keyboard.png */,
+				86A3566D174352D400070E80 /* keyboard@2x.png */,
+				86966D20174219F9002FB763 /* Passcode App-Info.plist */,
+				86966D21174219F9002FB763 /* InfoPlist.strings */,
+				86966D24174219F9002FB763 /* main.m */,
+				86966D26174219F9002FB763 /* Passcode App-Prefix.pch */,
+				86966D2A174219F9002FB763 /* Default.png */,
+				86966D2C174219F9002FB763 /* Default@2x.png */,
+				86966D2E174219F9002FB763 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86966D13174219F8002FB763 /* Passcode App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86966D3B174219F9002FB763 /* Build configuration list for PBXNativeTarget "Passcode App" */;
+			buildPhases = (
+				86966D10174219F8002FB763 /* Sources */,
+				86966D11174219F8002FB763 /* Frameworks */,
+				86966D12174219F8002FB763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passcode App";
+			productName = "Passcode App";
+			productReference = 86966D14174219F8002FB763 /* Passcode App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86966D0B174219F8002FB763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = StandardUser;
+			};
+			buildConfigurationList = 86966D0E174219F8002FB763 /* Build configuration list for PBXProject "Passcode App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86966D09174219F8002FB763;
+			productRefGroup = 86966D15174219F8002FB763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86966D13174219F8002FB763 /* Passcode App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86966D12174219F8002FB763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86966D23174219F9002FB763 /* InfoPlist.strings in Resources */,
+				4497A87F185092F3000E069D /* DSPasscodeViewController_iPad.xib in Resources */,
+				86966D2B174219F9002FB763 /* Default.png in Resources */,
+				86966D2D174219F9002FB763 /* Default@2x.png in Resources */,
+				86966D2F174219F9002FB763 /* Default-568h@2x.png in Resources */,
+				86966D35174219F9002FB763 /* ViewController_iPhone.xib in Resources */,
+				86966D38174219F9002FB763 /* ViewController_iPad.xib in Resources */,
+				86A356661743464F00070E80 /* SettingViewController_iPhone.xib in Resources */,
+				4497A881185092F3000E069D /* keyboard.png in Resources */,
+				86A3566E174352D400070E80 /* keyboard.png in Resources */,
+				86A3566F174352D400070E80 /* keyboard@2x.png in Resources */,
+				4497A880185092F3000E069D /* DSPasscodeViewController_iPhone.xib in Resources */,
+				86A3567117435E0100070E80 /* SettingViewController_iPad.xib in Resources */,
+				4497A882185092F3000E069D /* keyboard@2x.png in Resources */,
+				86A35674174364A500070E80 /* background.png in Resources */,
+				4497A883185092F3000E069D /* readme.rtf in Resources */,
+				86A35675174364A500070E80 /* background_ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86966D10174219F8002FB763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86966D25174219F9002FB763 /* main.m in Sources */,
+				86966D29174219F9002FB763 /* AppDelegate.m in Sources */,
+				86966D32174219F9002FB763 /* ViewController.m in Sources */,
+				4497A87E185092F3000E069D /* DSPasscodeViewController.m in Sources */,
+				86A356651743464F00070E80 /* SettingViewController.m in Sources */,
+				4497A87D185092F3000E069D /* DSPasscodeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86966D21174219F9002FB763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86966D22174219F9002FB763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86966D33174219F9002FB763 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86966D34174219F9002FB763 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		86966D36174219F9002FB763 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86966D37174219F9002FB763 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86966D39174219F9002FB763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86966D3A174219F9002FB763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86966D3C174219F9002FB763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passcode App/Passcode App-Prefix.pch";
+				INFOPLIST_FILE = "Passcode App/Passcode App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86966D3D174219F9002FB763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passcode App/Passcode App-Prefix.pch";
+				INFOPLIST_FILE = "Passcode App/Passcode App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86966D0E174219F8002FB763 /* Build configuration list for PBXProject "Passcode App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86966D39174219F9002FB763 /* Debug */,
+				86966D3A174219F9002FB763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86966D3B174219F9002FB763 /* Build configuration list for PBXNativeTarget "Passcode App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86966D3C174219F9002FB763 /* Debug */,
+				86966D3D174219F9002FB763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86966D0B174219F8002FB763 /* Project object */;
+}

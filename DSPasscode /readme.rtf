@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red168\green24\blue75;\red63\green110\blue116;
+\red38\green71\blue75;\red118\green15\blue80;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17940\viewh9040\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 \
+\
+\pard\pardeftab720\sl500
+
+\b0\fs28 \cf2 DSPasscode Protection is a Apple Style passcode protection , which could easily be used in your app by calling few methods
+\b\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+Using DSPasscode Protection\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\b0 \cf0 1. Create a sharedManager in Appdelegate .\cf3 \CocoaLigature0   
+\f1\fs36 \cf0  \
+
+\fs24          [\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ];\
+
+\f0 \cf3 \
+\pard\tx866\pardeftab866\pardirnatural
+\cf0 2. When user want to set Passcode , call this method from DSPasscodeManager class\
+    		
+\f1 [[\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ]\cf5 setPasscodeLock\cf0 ];\
+  
+\f0 with passing the Delegate
+\f1  \
+             [\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ].\cf4 delegate\cf0 =\cf6 self\cf0 ;\
+\
+3. 
+\f0 When user want to lock app , call this method from DSPasscodeManager class\
+           
+\f1 [[\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ]\cf5 setDelegate\cf0 :\cf6 self\cf0 ];\
+     [[\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ]\cf5 lockApp\cf0 ];\
+\
+4. You can also set the background for lock screen by using this method\
+    [[\cf4 DSPasscodeManager\cf0  \cf5 sharedManager\cf0 ]\cf5 setBackgroundImage\cf0 :(UIImage*)];\
+\
+5. You can check whether app is passcode protected\
+     [\cf4 DSPasscodeManager\cf0  \cf5 isPasscodeProtected\cf0 ];\
+   It returns BOOL value.\
+\
+6. You can remove Passcode by calling \
+    [\cf4 DSPasscodeManager\cf0  \cf5 removePasscode\cf0 ];\
+\
+7. Show appropriate alerts on these methods\
+-(\cf6 void\cf0 )userCancelledPasscodeLock            --
+\f0 When user cancels setting pass lock\
+
+\f1 -(\cf6 void\cf0 )passcodeMatchSuccessful      
+\f0                  --   When user unlocks the app and passcode matches\
+
+\f1 -(\cf6 void\cf0 )passcodeMatchUnsuccessful            --
+\f0 When user unlocks the app and passcode does not match\
+
+\f1 -(\cf6 void\cf0 )passcodeSaved							        --
+\f0 When user saves new passcode \
+
+\f1 -(\cf6 void\cf0 )confirmPasscodeMismatch              --
+\f0 When user saves new password and confirm password do not match with earlier given password
+\f1\fs36 \
+}
